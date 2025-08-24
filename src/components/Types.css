@@ -1,0 +1,110 @@
+.types-section {
+  padding: 40px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", Arial, sans-serif;
+  background-image: url(/media/aura-04/New Volume/Visual Studio/React/fsd_webpage/src/components/images/types_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.types-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.types-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.types-header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.types-row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.types-row:nth-child(odd) {
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+.types-row:hover {
+  background-color: rgba(236, 240, 241, 0.9);
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.types-cell {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.types-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.types-list li:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.types-list li:nth-child(odd) {
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+.types-list li {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.types-list li:hover {
+  background-color: rgba(236, 240, 241, 0.9);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.types-list strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.types-list ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: #7f8c8d;
+  font-size: 15px;
+}
+
+.types-list ul li {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(248, 248, 248, 0.9);
+}
+
+.types-list ul li:hover {
+  background-color: rgba(234, 234, 234, 0.9);
+  transform: scale(1.02);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
