@@ -1,4 +1,4 @@
-# 🏓 Table Tennis Racquet Guide for Beginners
+# 🏓 Table Tennis Racquet Guide React
 
 A comprehensive web application designed to help beginners choose the perfect table tennis racquet. This React-based website provides detailed information about different types of racquets, key factors to consider, and expert recommendations.
 
@@ -21,29 +21,34 @@ A comprehensive web application designed to help beginners choose the perfect ta
 ### Prerequisites
 
 Make sure you have the following installed on your system:
+
 - [Node.js](https://nodejs.org/) (version 14.0 or higher)
 - [npm](https://www.npmjs.com/) (usually comes with Node.js)
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd fsd_webpage
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Fix file watchers limit (Linux users only)**
+
    ```bash
    echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
    sudo sysctl -p
    ```
 
 4. **Start the development server**
+
    ```bash
    npm start
    ```
@@ -106,12 +111,14 @@ fsd_webpage/
 The application features four main sections:
 
 1. **Overview** (`/`) - Comprehensive guide covering:
+
    - Weight considerations (70-100 grams)
    - Grip sizes (Small, Medium, Large)
    - Blade materials (Wood types, Composite blades)
    - Rubber types (Inverted, Pips-Out)
 
 2. **Types of Racquets** (`/types`) - Detailed table showing:
+
    - Beginner racquets
    - Intermediate racquets
    - Advanced racquets
@@ -119,6 +126,7 @@ The application features four main sections:
    - Hybrid racquets
 
 3. **Recommendations** (`/recommendations`) - Curated list featuring:
+
    - Three recommended racquets
    - Product images and descriptions
    - Direct purchase links
@@ -139,6 +147,7 @@ The application features four main sections:
 ## 📱 Responsive Design
 
 The application is fully responsive and optimized for:
+
 - Desktop computers (1200px and above)
 - Tablets (768px - 1199px)
 - Mobile phones (below 768px)
@@ -162,15 +171,18 @@ npm test -- --coverage
 This application can be deployed to various platforms:
 
 ### Netlify
+
 1. Build the project: `npm run build`
 2. Upload the `build` folder to Netlify
 
 ### Vercel
+
 1. Connect your repository to Vercel
 2. Set build command: `npm run build`
 3. Set output directory: `build`
 
 ### GitHub Pages
+
 1. Install gh-pages: `npm install --save-dev gh-pages`
 2. Add to package.json: `"homepage": "https://yourusername.github.io/fsd_webpage"`
 3. Add deploy script: `"deploy": "gh-pages -d build"`
@@ -191,12 +203,14 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 ### Common Issues
 
 **File watchers limit error (Linux)**
+
 ```bash
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
 sudo sysctl -p
 ```
 
 **Port 3000 already in use**
+
 ```bash
 # Find process using port 3000
 lsof -ti:3000
@@ -205,6 +219,7 @@ kill -9 <PID>
 ```
 
 **npm install fails**
+
 ```bash
 # Clear npm cache
 npm cache clean --force
@@ -221,6 +236,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Ashwin M.V**
+
 - Website: [Your Website](https://your-website.com)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
 - Email: your.email@example.com
@@ -245,4 +261,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ If you found this project helpful, please give it a star on GitHub!
 
-🏓 Happy playing!
+# 🏓 Happy playing!
+
+# table-tennis-racquet-guide-react
+
+A React web app to help beginners choose the perfect table tennis racquet
