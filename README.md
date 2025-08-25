@@ -229,7 +229,7 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
- 👨‍💻 Author
+ ## 👨‍💻 Author
 
 **Ashwin M.V**
 - Email: mvashwin2004@gmail.com
