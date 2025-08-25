@@ -229,17 +229,10 @@ rm -rf node_modules package-lock.json
 npm install
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
+ 👨‍💻 Author
 
 **Ashwin M.V**
-
-- Website: [Your Website](https://your-website.com)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- Email: mvashwin2004@gmail.com
 
 ## 🙏 Acknowledgments
 
